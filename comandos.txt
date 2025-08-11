@@ -24,5 +24,8 @@ npx @react-native-community/cli init Aula1
 dir
 cd Aula1
 
-// iniciar
+// Iniciar
 code .
+
+// Abrir Emulador
+npx react-native run-android
