@@ -1,0 +1,28 @@
+// Para instalar o emulador, precisa ter tudo isso
+cd\
+java -v
+node -v
+npm -v
+npm view react-native version
+code -v
+
+// Abrir o emulador
+cd Android
+cd SDK
+cd emulator
+emulator -list-avds
+emulator -avd Pixel_4_XL
+
+// Criar variável
+md FiapMob
+cd .\FiapMob
+
+// Criar template react native
+npx @react-native-community/cli init Aula1
+
+// Ver diretório
+dir
+cd Aula1
+
+// iniciar
+code .
